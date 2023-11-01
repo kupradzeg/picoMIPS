@@ -1,0 +1,32 @@
+// sample picoMIPS program 
+
+// format: 5b opcode, 2b %d, 8b immediate or Source --> 15 Bits Total
+// 
+// HEX /////////// BINARY  ///////////////////// ASSEMBLER /////////
+
+7400	//0) 11101 00 00000000		SWI		%0	num1		Store num1 to %0
+0000	//1) 00000 00 00000000		ST_0	%0
+7500	//2) 11101 01 00000000		SWI		%1	num2		Store num2 to %1
+0100	//3) 00000 01 00000000		ST_0	%1
+
+//Calculate X2 (excluding addition part)
+6660	//4) 11001 10 01100000		IMM		%2	0.75	Store 0.75 to %2
+4e00	//5) 10011 10 00000000		MUL		%2	%0		%2 = 0.75 * num1
+6740	//6) 11001 11 01000000		IMM		%3	0.5		Store 0.5 to %3
+4f01	//7) 10011 11 00000001		MUL		%3	%1		%3 = 0.5*num2
+2a03	//8) 01010 10 00000011		ADD		%2	%3		%2 = %2+%3
+//Calculate Y2 (excluding addition part)
+5cc0	//9) 10111 00 11000000		MULI	%0	-0.5	%0 = num1 * (-0.5)
+5d60	//10)10111 01 01100000		MULI	%1	0.75	%1 = num2 * 0.75
+2801	//11)01010 00 00000001		ADD		%0	%1		%0 = %0+%1
+
+//Displaying X2
+
+3a14	//12) 01110 10 00010100		ADDI	%2	20		Getting final result for X2
+1200	//13) 00100 10 00000000		ST_1	%2
+
+//Display Y2
+38ec	//14) 01110 00 11101100		ADDI	%0	-20		Getting final result for Y2
+0000	//15) 00000 00 00000000		ST_0	%0
+//Jump back to the first instruction
+

@@ -1,0 +1,118 @@
+C:/Users/kupra/Desktop/Processors/coursework/opcodes.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/opcodes.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/decodertest.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/decodertest.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module decoder_tb
+
+Top level modules:
+	decoder_tb
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/prog.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/prog.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module prog
+
+Top level modules:
+	prog
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/cpu.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/cpu.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/alucodes.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/alucodes.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/testbench_memory.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/testbench_memory.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module tb_prog
+
+Top level modules:
+	tb_prog
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/regs.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/regs.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module regs
+
+Top level modules:
+	regs
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/alu_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/alu_testbench.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module signed_mult
+-- Compiling module alu_testbnech
+
+Top level modules:
+	signed_mult
+	alu_testbnech
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/prog.hex {0 {vlog -work work -vopt -stats=none C:/Users/kupra/Desktop/Processors/coursework/prog.hex
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+** Error: (vlog-13069) C:/Users/kupra/Desktop/Processors/coursework/prog.hex(7): near "7400": syntax error, unexpected INTEGER NUMBER, expecting class.
+
+} {3.0 4.0} {}} C:/Users/kupra/Desktop/Processors/coursework/decoder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/decoder.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/testbench_picoMIPS4.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/testbench_picoMIPS4.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pico_test
+
+Top level modules:
+	pico_test
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/counter.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/counter.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/picoMIPS4test.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/picoMIPS4test.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module picoMIPS4test
+
+Top level modules:
+	picoMIPS4test
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/regstest.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/regstest.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module regstest
+
+Top level modules:
+	regstest
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/mult.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/mult.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module signed_mult
+
+Top level modules:
+	signed_mult
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/alu.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/alu.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/testbench_pc.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/testbench_pc.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pc_testbnech
+
+Top level modules:
+	pc_testbnech
+
+} {} {}} C:/Users/kupra/Desktop/Processors/coursework/pc.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kupra/Desktop/Processors/coursework/pc.sv
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}}
